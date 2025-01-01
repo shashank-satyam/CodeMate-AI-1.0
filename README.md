@@ -22,17 +22,18 @@ With this extension, users can:
 
 **Setup Instructions**
 
-Step 1: Clone the Repository
-Step 2: Add API Key.
-        1. Open the content.js file.
-        2. Replace the placeholder API key in this line:
-           const API_KEY = "YOUR_API_KEY_HERE";
-
-Step 3: Load the Extension in Chrome:-
-        1. Open Chrome and go to chrome://extensions/.
-        2. Enable Developer mode (top-right corner).
-        3. Click Load unpacked and select the project folder.
-        4. The extension should now appear in your browser.
+   Step 1: Clone the Repository
+   
+   Step 2: Add API Key.
+           1. Open the content.js file.
+           2. Replace the placeholder API key in this line:
+              const API_KEY = "YOUR_API_KEY_HERE";
+   
+   Step 3: Load the Extension in Chrome:-
+           1. Open Chrome and go to chrome://extensions/.
+           2. Enable Developer mode (top-right corner).
+           3. Click Load unpacked and select the project folder.
+           4. The extension should now appear in your browser.
 
 **How to Use**
 1. Visit a problem page on maang.in.

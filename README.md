@@ -30,9 +30,13 @@ With this extension, users can:
               const API_KEY = "YOUR_API_KEY_HERE";
    
    Step 3: Load the Extension in Chrome:-
+
            1. Open Chrome and go to chrome://extensions/.
+           
            2. Enable Developer mode (top-right corner).
+           
            3. Click Load unpacked and select the project folder.
+           
            4. The extension should now appear in your browser.
 
 **How to Use**

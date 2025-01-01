@@ -1,0 +1,93 @@
+/* Chatbox Container */
+#ai-chat-box {
+    position: fixed;
+    bottom: 10px;
+    /* Positioned towards the bottom */
+    right: 20px;
+    /* Positioned towards the right */
+    width: 500px;
+    /* Increased width */
+    height: 500px;
+    /* Reduced height */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+    padding: 10px;
+}
+
+/* Close Button */
+.ai-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* AI Help Button */
+.ai-help-button {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #005c83;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Chat Messages */
+.ai-chat-messages {
+    height: 380px;
+    /* Adjusted height for messages */
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input Field */
+.ai-chat-input {
+    width: 78%;
+    /* Adjusted width to fill most of the space */
+    padding: 10px;
+    margin-right: 5px;
+    /* Small margin for spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Send Button */
+.ai-chat-send {
+    width: 18%;
+    /* Adjusted width to fill the remaining space */
+    padding: 10px;
+    cursor: pointer;
+    background-color: #005c83;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Chat Message Styling */
+.ai-chat-messages div {
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.ai-chat-messages div:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.ai-chat-messages div:nth-child(even) {
+    background-color: #e1f5fe;
+}

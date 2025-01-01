@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AI Helper for maang.in",
+  "version": "1.0",
+  "author": "Shashank Satyam",
+  "description": "Adds AI assistance to maang.in problem pages.",
+  "content_scripts": [
+    {
+      "matches": ["https://maang.in/*"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [
+    "scripting",
+    "storage",
+    "tabs"
+  ]
+}
